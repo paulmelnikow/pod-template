@@ -1,23 +1,27 @@
 pod-template
 ============
 
-An opinionated template for creating a Pod with the following features:
-
-- Git as the source control management system.
-- Clean folder structure.
-- Project generation
-- MIT license.
-- Testing as a standard
-- Turnkey access to Travis CI
+A fork of [cocoapods/pod-template][upstream] with developer tooling in Rake.
 
 ## Getting started
 
-There are two reasons for wanting to work on this template, making your own or improving the one for everyone's. In both cases you will want to work with the ruby classes inside the `setup` folder, and the example base template that it works on from inside `template/ios/`. 
+```sh
+pod lib create YourLib https://github.com/paulmelnikow/pod-template-rake.git
+```
+
+## Learning Rake
+
+- [Jason Seifer's Rake tutorial](http://jasonseifer.com/2010/04/06/rake-tutorial)
+- [Rakefile format](http://ruby-doc.org/core-2.0.0/doc/rake/rakefile_rdoc.html)
 
 ## Best practices
 
-The CocoaPods one aims to be congruent with this guide: http://guides.cocoapods.org/making/using-pod-lib-create.html so any changes of flow should be updated there also.
+As much as possible, this template aims to stay synced with the
+[upstream template][upstream].
 
 ## Requirements:
 
 - CocoaPods 0.31
+
+
+[upstream]: cocoapods/pod-template
