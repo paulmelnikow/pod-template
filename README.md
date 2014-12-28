@@ -24,4 +24,4 @@ As much as possible, this template aims to stay synced with the
 - CocoaPods 0.31
 
 
-[upstream]: cocoapods/pod-template
+[upstream]: https://github.com/cocoapods/pod-template
